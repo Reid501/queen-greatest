@@ -1,0 +1,19 @@
+{
+  "name": "queen-greatest",
+  "version": "1.0.0",
+  "description": "App to decide which queen song is the greatest",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Alex Reid",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}

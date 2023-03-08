@@ -1,0 +1,19 @@
+GET http://localhost:3001/songs
+
+###
+
+POST http://localhost:3001/song/new
+Content-Type: application/json
+
+{
+    "title": "Don't Stop Me Now",
+    "cover": "artwork"
+}
+
+###
+
+DELETE http://localhost:3001/song/delete/64086c8035f4e0a006830345
+
+###
+
+PUT http://localhost:3001/song/vote/64085840fcacc1088241e66a
